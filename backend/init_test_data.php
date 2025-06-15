@@ -11,13 +11,12 @@ try {
     // Тестовые пользователи
     $users = [
         [
-            'first_name' => 'Иван',
-            'last_name' => 'Иванов',
-            'middle_name' => 'Иванович',
+            'first_name' => 'Главный',
+            'last_name' => 'Администратор',
             'phone' => '+7 (999) 123-45-67',
             'email' => 'ivanov@example.com',
-            'login' => 'ivanov',
-            'password' => password_hash('password123', PASSWORD_DEFAULT),
+            'login' => 'adminka',
+            'password' => password_hash('password', PASSWORD_DEFAULT),
             'role' => 'admin'
         ],
         [
@@ -26,8 +25,8 @@ try {
             'middle_name' => 'Петрович',
             'phone' => '+7 (999) 234-56-78',
             'email' => 'petrov@example.com',
-            'login' => 'adminka',
-            'password' => password_hash('password', PASSWORD_DEFAULT),
+            'login' => 'petrov',
+            'password' => password_hash('password123', PASSWORD_DEFAULT),
             'role' => 'user'
         ],
         [
