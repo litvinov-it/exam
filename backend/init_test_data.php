@@ -60,7 +60,7 @@ try {
             'preferred_date' => '2024-03-20',
             'preferred_time' => '14:00',
             'payment_type' => 'Карта',
-            'status' => 'новая заявка'
+            'status' => 'новая'
         ],
         [
             'user_id' => 2,
@@ -70,7 +70,7 @@ try {
             'preferred_date' => '2024-03-21',
             'preferred_time' => '10:00',
             'payment_type' => 'Наличные',
-            'status' => 'в обработке'
+            'status' => 'в работе'
         ],
         [
             'user_id' => 3,
@@ -80,7 +80,7 @@ try {
             'preferred_date' => '2024-03-22',
             'preferred_time' => '16:00',
             'payment_type' => 'Карта',
-            'status' => 'новая заявка'
+            'status' => 'новая'
         ]
     ];
 
