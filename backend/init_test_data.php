@@ -26,8 +26,8 @@ try {
             'middle_name' => 'Петрович',
             'phone' => '+7 (999) 234-56-78',
             'email' => 'petrov@example.com',
-            'login' => 'petrov',
-            'password' => password_hash('password123', PASSWORD_DEFAULT),
+            'login' => 'adminka',
+            'password' => password_hash('password', PASSWORD_DEFAULT),
             'role' => 'user'
         ],
         [
