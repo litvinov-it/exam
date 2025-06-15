@@ -5,6 +5,6 @@ session_start();
 session_destroy();
 
 // Перенаправляем на страницу входа
-header('Location: ../auth.php');
+header('Location: ../pages/auth.php');
 exit();
 ?> 
