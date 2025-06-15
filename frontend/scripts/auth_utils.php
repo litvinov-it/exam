@@ -41,7 +41,7 @@ function authorizeAndRedirect($userId, $role) {
     
     // Перенаправляем в зависимости от роли
     if ($role === 'admin') {
-        header('Location: ../admin/requests.php');
+        header('Location: ../pages/admin/requests.php');
     } else {
         header('Location: ../index.php');
     }
